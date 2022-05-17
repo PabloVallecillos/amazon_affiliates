@@ -9,13 +9,15 @@
     ],
     "parserOptions": {
         "ecmaVersion": "latest",
-        "parser": "@typescript-eslint/parser",
-        "sourceType": "module"
+        "parser": "@typescript-eslint/parser"
+//        "sourceType": "module"
     },
     "plugins": [
         "vue",
         "@typescript-eslint"
     ],
     "rules": {
+        "no-undef": "off",
+        "import/no-extraneous-dependencies": "off"
     }
 }
